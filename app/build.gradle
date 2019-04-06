@@ -23,7 +23,7 @@ android {
 
 def getMyApiKey(String property){
     Properties properties = new Properties()
-    properties.load(new FileInputStream("sacred/K.env"))
+    properties.load(new FileInputStream("sacred/Template Key.env"))
     return "\"" + properties.getProperty(property) +"\""
 }
 
